@@ -1,0 +1,2 @@
+## Module Structure
+The modular structure of Angular arranges the code into different modules so all services and components are divided into different groups when you construct them. In Angular coding, you can separate functionality into reusable pieces of code
