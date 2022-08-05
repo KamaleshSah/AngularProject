@@ -6,9 +6,9 @@ import { AdminComponent } from './admin.component';
 import { HomeComponent } from './home/home.component';
 import { UserReportComponent } from './user-report/user-report.component';
 import { ExamReportComponent } from './exam-report/exam-report.component';
-import { HeaderComponent } from './component/header/header.component';
-import { FooterComponent } from './component/footer/footer.component';
-
+//import { HeaderComponent } from './component/header/header.component';
+//import { FooterComponent } from './component/footer/footer.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -16,11 +16,12 @@ import { FooterComponent } from './component/footer/footer.component';
     HomeComponent,
     UserReportComponent,
     ExamReportComponent,
-    HeaderComponent,
-    FooterComponent
+   // HeaderComponent,
+   // FooterComponent
   ],
   imports: [
     CommonModule,
+    RouterModule,
     AdminRoutingModule
   ]
 })
